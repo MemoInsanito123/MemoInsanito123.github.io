@@ -1,0 +1,76 @@
+@import url(https://db.onlinewebfonts.com/c/01d273202731e44f0f1187f3afcaf156?family=Mark+Pro+Bold);
+
+body{
+
+
+    background: linear-gradient(to left, #4470eb 27%, #4e9af7 70%, #7db4f7 100%);
+    
+}
+
+.container{
+
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    height: 450px;
+    box-shadow: 10px 10px 50px #0000007b;
+
+    position: relative;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 55%);
+    
+}
+
+button{
+    border: none;
+    background-color: #4470eb;
+    border-radius: 15px;
+    color: white;
+    font-family: "Mark Pro Bold";
+    font-size: 30px;
+    height: 55px;
+    width:145px;
+
+    transition: background-color 0.2s ease-in;
+
+}
+
+button:hover{
+    background-color: #3255b4;
+}
+
+button:active{
+    background-color: #5e80df;
+}
+
+label{
+    
+    font-family: "Mark Pro Bold";
+    font-size: 40px;
+    
+}
+
+#input00, #input01{
+
+    border: none;
+    border-bottom: 2px solid #b1b1b1;
+    font-family: "Mark Pro Bold";
+    font-size: 35px;
+    text-align: center;
+}
+
+.DNI{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+.Letter{
+    position: absolute;
+    left: 43px;
+    top: 270px;
+    opacity: 21px
+
+}
